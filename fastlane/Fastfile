@@ -28,7 +28,7 @@ platform :ios do
   desc "Testcases"
   lane :test_lane do
     run_tests(
-        project: "HelloWorld/HelloWorld.xcodeproj"
+        project: "HelloWorld/HelloWorld.xcodeproj",
         scheme: "HelloWorld"
     )
   end
