@@ -29,6 +29,7 @@ platform :ios do
   lane :test_lane do
     run_tests(
         project: "HelloWorld/HelloWorld.xcodeproj",
+        devices: ["iPhone 6s", "iPad Air"],
         scheme: "HelloWorld"
     )
   end
