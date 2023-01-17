@@ -73,7 +73,7 @@ jobs:
     test-job:
         macos:
             xcode: 14.1.0
-        #working_directory: ~/project/hello-world/hello-world
+        working_directory: ~/project/HelloWorld
         environment:
             FL_OUTPUT_DIR: output
             FASTLANE_LANE: test-lane
