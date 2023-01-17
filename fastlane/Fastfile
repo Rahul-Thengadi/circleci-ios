@@ -22,7 +22,7 @@ platform :ios do
   #end
   
   desc "Testcases"
-  lane: test_lane do
+  lane :test_lane do
     run_tests(scheme: "HelloWorld")
   end
 end
