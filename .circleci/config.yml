@@ -76,7 +76,7 @@ jobs:
         working_directory: ~/project/HelloWorld
         environment:
             FL_OUTPUT_DIR: output
-            FASTLANE_LANE: test-lane
+            FASTLANE_LANE: test_lane
         steps:
             - checkout
             - run: bundle install
