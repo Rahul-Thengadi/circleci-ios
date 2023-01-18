@@ -32,7 +32,12 @@ platform :ios do
     #    devices: ["iPhone 14"],
     #    scheme: "HelloWorld"
     #)
-    scan
+    
+    scan(
+        project: "HelloWorld/HelloWorld.xcodeproj",
+        devices: ["iPhone 14"],
+        scheme: "HelloWorld"
+    )
   end
 end
 
