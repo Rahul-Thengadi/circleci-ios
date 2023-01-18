@@ -36,8 +36,8 @@ platform :ios do
     scan(
         project: "HelloWorld/HelloWorld.xcodeproj",
         devices: ["iPhone 14"],
-        scheme: "HelloWorld"
-        include_simulator_logs: false 
+        scheme: "HelloWorld",
+        include_simulator_logs: false
     )
   end
 end
