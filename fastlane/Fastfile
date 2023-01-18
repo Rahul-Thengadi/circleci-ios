@@ -27,11 +27,12 @@ platform :ios do
   
   desc "Testcases"
   lane :test_lane do
-    run_tests(
-        project: "HelloWorld/HelloWorld.xcodeproj",
-        devices: ["iPhone 14"],
-        scheme: "HelloWorld"
-    )
+    #run_tests(
+    #    project: "HelloWorld/HelloWorld.xcodeproj",
+    #    devices: ["iPhone 14"],
+    #    scheme: "HelloWorld"
+    #)
+    scan
   end
 end
 
